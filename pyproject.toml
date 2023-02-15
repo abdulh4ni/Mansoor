@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mansoor"
+version = "0.1.0"
+description = "Mansoor is a discord bot"
+authors = ["abdulh4ni <abdulh4ni@icloud.com>"]
+license = "GPL v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nextcord = "^2.3.3"
+python-dotenv = "^0.21.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
